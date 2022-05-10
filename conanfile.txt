@@ -1,0 +1,6 @@
+[requires]
+glfw/3.3.6
+imgui/1.87
+
+[generators]
+cmake
