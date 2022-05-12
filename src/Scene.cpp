@@ -1,4 +1,3 @@
-
 #include "Scene.hpp"
 
 #include "imgui.h"
@@ -16,7 +15,7 @@ Scene* Scene::voxel_cone_trace()
 
 void window_input(GLFWwindow *window, Camera& camera,v3f& target, f32 dt)
 {
-    auto get_key = [&](auto key) -> bool {
+    const auto get_key = [&](auto key) -> bool {
         return glfwGetKey(window, key) == GLFW_PRESS;
     };
     
